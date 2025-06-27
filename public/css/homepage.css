@@ -1,0 +1,243 @@
+body {
+    background-color: #f1f3f6;
+}
+
+.main-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 1296px;
+    max-width: 100%;
+}
+
+.product-img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+} 
+.card-title{
+    font-weight: 600;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.input-group .form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #ced4da !important;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+/* Cart Badge Styles */
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: 2px;
+    left: 2px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    line-height: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Electronic Carousel Styles */
+.electronic-carousel {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+}
+
+.electronic-card {
+    background: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+
+.electronic-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.electronics-section {
+    padding: 0;
+    margin: 1rem 0;
+    min-height: 250px;
+}
+
+.electronics-section .main-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 1.5rem;
+}
+
+.electronics-slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -20px;  /* Compensate for main-container padding */
+    width: calc(100% + 40px);  /* Expand to counter the negative margin */
+}
+
+.electronics-track {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding: 0.5rem 20px;  /* Add horizontal padding to match container */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.electronics-track::-webkit-scrollbar {
+    display: none;
+}
+
+.electronics-item {
+    flex: 0 0 auto;
+}
+
+.electronics-card {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.electronics-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.electronics-image {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.electronics-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.electronics-info {
+    width: 100%;
+}
+
+.electronics-title {
+    font-size: 1rem;
+    color: #212121;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.electronics-price {
+    font-size: 0.9rem;
+    color: #212121;
+    margin: 0;
+}
+
+.electronics-tag {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    background: #e1f5fe;
+    color: #0277bd;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.slider-nav:hover {
+    background: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.slider-nav.prev {
+    left: 0;
+}
+
+.slider-nav.next {
+    right: 0;
+}
+
+.slider-nav i {
+    font-size: 1.2rem;
+    color: #212121;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .electronic-card {
+        min-width: 150px; /* Adjust for smaller screens */
+    }
+    .product-image {
+        max-height: 150px; /* Smaller images on mobile */
+    }
+    .electronics-item {
+        flex: 0 0 160px;
+        max-width: 160px;
+    }
+
+    .electronics-image {
+        height: 140px;
+    }
+
+    .electronics-title {
+        font-size: 0.85rem;
+    }
+
+    .slider-nav {
+        width: 32px;
+        height: 32px;
+    }
+}

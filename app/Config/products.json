@@ -1,0 +1,118 @@
+{
+  "electronics": [
+    {
+      "name": "Headphones",
+      "price": 799.00,
+      "image": "headphones.jpg",
+      "category": "headphones"
+    },
+    {
+      "name": "Smartwatch",
+      "price": 1999.00,
+      "image": "smartwatch.jpg",
+      "category": "smartwatches"
+    },
+    {
+      "name": "Camera",
+      "price": 25999.00,
+      "image": "camera.jpg",
+      "category": "cameras"
+    },
+    {
+      "name": "Monitor",
+      "price": 15999.00,
+      "image": "monitor.jpg",
+      "category": "monitors"
+    }
+  ],
+   "headphones": [
+    {
+      "name": "Wireless Headphones",
+      "price": 1499.99,
+      "image": "headphones/headphone1.jpg"
+    },
+    {
+      "name": "Noise-Canceling Headphones",
+      "price": 2499.99,
+      "image": "headphones/headphone2.jpg"
+    },
+    {
+      "name": "Bluetooth Over-Ear Headphones",
+      "price": 1799.00,
+      "image": "headphones/headphone3.jpg"
+    },
+    {
+      "name": "Bass Boost Wired Headphones",
+      "price": 799.00,
+      "image": "headphones/headphone4.jpg"
+    },
+    {
+      "name": "Gaming Headset with Mic",
+      "price": 2199.99,
+      "image": "headphones/headphone5.jpg"
+    },
+    {
+      "name": "Foldable Travel Headphones",
+      "price": 1299.00,
+      "image": "headphones/headphone6.jpg"
+    },
+    {
+      "name": "Studio Monitor Headphones",
+      "price": 2999.00,
+      "image": "headphones/headphone7.jpg"
+    },
+    {
+      "name": "Sports Neckband Headphones",
+      "price": 1099.00,
+      "image": "headphones/headphone8.jpg"
+    },
+    {
+      "name": "Noise-Isolating On-Ear Headphones",
+      "price": 899.00,
+      "image": "headphones/headphone9.jpg"
+    },
+    {
+      "name": "Wireless Earbuds Pro",
+      "price": 3499.00,
+      "image": "headphones/headphone10.jpg"
+    },
+    {
+      "name": "Kids Safe Volume Headphones",
+      "price": 699.00,
+      "image": "headphones/headphone11.jpg"
+    },
+    {
+      "name": "Hi-Fi Over-Ear Headphones",
+      "price": 2699.00,
+      "image": "headphones/headphone12.jpg"
+    },
+    {
+      "name": "Wireless Headphones with ANC",
+      "price": 3999.00,
+      "image": "headphones/headphone13.jpg"
+    },
+    {
+      "name": "Lightweight Travel Headphones",
+      "price": 999.00,
+      "image": "headphones/headphone14.jpg"
+    },
+    {
+      "name": "Surround Sound Gaming Headphones",
+      "price": 2899.00,
+      "image": "headphones/headphone15.jpg"
+    }
+     
+  ],
+  "smartwatches": [
+    {
+      "name": "Smartwatch Pro",
+      "price": 3999.00,
+      "image": "smartwatches/pro1.jpg"
+    },
+    {
+      "name": "Fitness Tracker Watch",
+      "price": 1999.00,
+      "image": "smartwatches/fitness1.jpg"
+    }
+  ]
+}
